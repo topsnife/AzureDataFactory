@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_yla",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo.emp",
+			"table": "Azure Blob Storage file"
+		}
+	}
+}
